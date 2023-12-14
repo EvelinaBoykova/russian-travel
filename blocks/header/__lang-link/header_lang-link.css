@@ -1,0 +1,24 @@
+.header_lang-link {
+    width: 22px;
+    height: 20px;
+    top: 30px;
+    left: 242px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 24px;
+    text-align: right;
+    transition: 0,5s ease-out;
+}
+
+.header_lang-link:hover {
+    text-decoration: underline;
+    opacity: 0,6;
+}
+
+@media all and (max-width: 320px) {
+    .header_lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
