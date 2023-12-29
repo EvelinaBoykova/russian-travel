@@ -1,0 +1,20 @@
+.cover { 
+    max-width: 1184px; 
+    margin: 0 auto; 
+    padding-top: 92px; 
+    display: grid; 
+    grid-template-columns: 100%; 
+    grid-template-areas: "cover-content"; 
+} 
+
+@media all and (max-width: 1024px) { 
+    .cover { 
+    padding-top: 71px; 
+    } 
+} 
+
+@media all and (max-width: 768px) { 
+    .cover { 
+    padding-top: 65px; 
+    } 
+} 

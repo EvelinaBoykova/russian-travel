@@ -1,0 +1,16 @@
+.place__website { 
+    grid-area: website; 
+    display: grid; 
+    align-items: end; 
+    align-self: end; 
+    padding-bottom: 48px; 
+} 
+
+@media all and (max-width: 550px) { 
+    .place__website { 
+      visibility: hidden; 
+      height: 0px; 
+      margin: 0; 
+      padding: 0; 
+    } 
+}
